@@ -31,36 +31,16 @@ body{
     padding: 10px 0px 10px 40px;
 }
 img{
-    display: inline-block;
     height: 350px;
     width: auto;
-    margin: 20px 20px 5px 20px;
     border-radius: 10px;
 }
-.list{
-    
-    margin-left: 20px;
+.mainFlex{
+    display: flex;
+    justify-content: space-around;
     
 }
-
 a{
-    font-size: 40px;
-    display: inline-block;
-    color:rgb(62, 46, 46) ;
-}
-.chicken{
-    margin-left: 60px;
-}
-.ch{
-    max-width: 440px;
-    display: inline-block;
-    margin: 10px 0px 0px 90px;
-    text-align: center;
-    
-}
-.ca{
-    max-width: 440px;
-    display: inline-block;
-    margin: 10px 30px 0px 20px;
-    text-align: center;
+    font-size: 30px;
+    color: rgb(62, 46, 46);
 }
